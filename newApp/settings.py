@@ -151,4 +151,4 @@ LOGGING = {
 }
 
 import dj_database_url
-DATABASES={'Default': dj_database_url.config(default = 'postgres://localhost')}
+DATABASES={'default': dj_database_url.config(default = 'postgres://localhost')}
