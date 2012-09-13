@@ -6,3 +6,4 @@ flup==1.0.3.dev-20110405
 psycopg2==2.4.5
 virtualenv==1.6.1
 wsgiref==0.1.2
+gunicorn==0.14.6
