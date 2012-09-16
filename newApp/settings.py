@@ -103,7 +103,7 @@ ROOT_URLCONF = 'newApp.urls'
 WSGI_APPLICATION = 'newApp.wsgi.application'
 
 TEMPLATE_DIRS = (
-    '../template/',
+    'blog/template',
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -121,7 +121,7 @@ INSTALLED_APPS = (
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
     # Uncomment the next line to enable admin documentation:
-    # 'django.contrib.admindocs',
+    'django.contrib.admindocs',
 )
 
 # A sample logging configuration. The only tangible logging
@@ -155,3 +155,10 @@ LOGGING = {
 
 import dj_database_url
 DATABASES={'default': dj_database_url.config(default = 'postgres://localhost')}
+
+EMAIL_USE_TLS = True
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = 'smtp.gmail.com'
+EMAIL_HOST_USER = 'tonie.tonieh.h@gmail.com'
+EMAIL_HOST_PASSWORD = 'kakashi1109'
+EMAIL_PORT = 587
