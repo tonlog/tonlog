@@ -41,7 +41,7 @@ def contactUs(request):
             return HttpResponseRedirect("")
     else:
         form = ContactForm()
-    return render_to_response("contactUs.html",{},context_instance=RequestContext(request))
+    return render_to_response("contactUs.html",{'form':form},context_instance=RequestContext(request))
 
 def thankU(request):
     return render_to_response("THX.html", {})
