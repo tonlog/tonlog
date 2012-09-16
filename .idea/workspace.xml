@@ -27,7 +27,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="12" selection-start="99" selection-end="99" vertical-scroll-proportion="0.225">
+            <state line="163" column="16" selection-start="5568" selection-end="5568" vertical-scroll-proportion="0.775">
               <folding />
             </state>
           </provider>
@@ -572,7 +572,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newApp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="99" selection-end="99" vertical-scroll-proportion="0.225">
+        <state line="163" column="16" selection-start="5568" selection-end="5568" vertical-scroll-proportion="0.775">
           <folding />
         </state>
       </provider>
