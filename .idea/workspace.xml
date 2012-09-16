@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e155830-f222-4638-b0d6-97e4ad9fc3c9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newApp/settings.py" afterPath="$PROJECT_DIR$/newApp/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newApp/urls.py" afterPath="$PROJECT_DIR$/newApp/urls.py" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,10 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="163" column="16" selection-start="5568" selection-end="5568" vertical-scroll-proportion="0.775">
+            <state line="163" column="16" selection-start="5568" selection-end="5568" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -51,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newApp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="45" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
+            <state line="9" column="21" selection-start="302" selection-end="302" vertical-scroll-proportion="0.3375">
               <folding />
             </state>
           </provider>
@@ -126,7 +126,6 @@
         <option value="$PROJECT_DIR$/template/searchBook.html" />
         <option value="$PROJECT_DIR$/blog/template/searchBlog.html" />
         <option value="$PROJECT_DIR$/blog/template/THX.html" />
-        <option value="$PROJECT_DIR$/newApp/urls.py" />
         <option value="$PROJECT_DIR$/blog/admin.py" />
         <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/blog/send.html" />
@@ -134,6 +133,7 @@
         <option value="$PROJECT_DIR$/blog/forms.py" />
         <option value="$PROJECT_DIR$/blog/template/contactUs.html" />
         <option value="$PROJECT_DIR$/newApp/settings.py" />
+        <option value="$PROJECT_DIR$/newApp/urls.py" />
       </list>
     </option>
   </component>
@@ -414,7 +414,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="916" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="916" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -533,13 +533,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newApp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="45" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/template/searchBlog.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="14" selection-start="347" selection-end="347" vertical-scroll-proportion="-8.307693">
@@ -572,7 +565,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newApp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="163" column="16" selection-start="5568" selection-end="5568" vertical-scroll-proportion="0.775">
+        <state line="163" column="16" selection-start="5568" selection-end="5568" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="21" selection-start="302" selection-end="302" vertical-scroll-proportion="0.3375">
           <folding />
         </state>
       </provider>

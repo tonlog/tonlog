@@ -7,7 +7,7 @@ admin.autodiscover()
 urlpatterns = patterns('',
     ('^search/onBlog$','blog.views.searchBlog'),
     ('^contactUs/$','blog.views.contactUs'),
-    ('^contactUs/thx$', 'blog.views.thankU'),
+    ('^contactUs/thx/$', 'blog.views.thankU'),
     # Examples:
     # url(r'^$', 'newApp.views.home', name='home'),
     # url(r'^newApp/', include('newApp.foo.urls')),
