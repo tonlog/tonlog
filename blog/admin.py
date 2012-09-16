@@ -5,7 +5,7 @@ class BlogAdmin(admin.ModelAdmin):
     list_display = ('title', 'tag', 'pub_time',)
     ordering = ('pub_time', 'title')
     list_filter = ('pub_time', 'tag')
-    search_fields = ('title')
+    search_fields = ('title',)
 
 class CommentAdmin(admin.ModelAdmin):
     list_display = ('blog','topic','up_time')
