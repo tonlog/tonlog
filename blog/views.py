@@ -1,5 +1,6 @@
 from django.db.models import Q
 from django.shortcuts import render_to_response
+from django.template.context import RequestContext
 from django.views.decorators.csrf import csrf_protect
 from models import Blog
 from forms import ContactForm
@@ -40,7 +41,7 @@ def contactUs(request):
             return HttpResponseRedirect("")
     else:
         form = ContactForm()
-    return render_to_response('contactUs.html',{'form':form})
+    return render_to_response("contactUs.html",{},context_instance=RequestContext(request))
 
 def thankU(request):
     return render_to_response("THX.html", {})
