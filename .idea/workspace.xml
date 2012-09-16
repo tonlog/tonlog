@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e155830-f222-4638-b0d6-97e4ad9fc3c9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newApp/urls.py" afterPath="$PROJECT_DIR$/newApp/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,10 +51,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newApp/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="21" selection-start="302" selection-end="302" vertical-scroll-proportion="0.3375">
+            <state line="9" column="21" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -78,10 +78,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="53" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0">
+            <state line="40" column="51" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.55">
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
@@ -127,13 +127,13 @@
         <option value="$PROJECT_DIR$/blog/template/searchBlog.html" />
         <option value="$PROJECT_DIR$/blog/template/THX.html" />
         <option value="$PROJECT_DIR$/blog/admin.py" />
-        <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/blog/send.html" />
         <option value="$PROJECT_DIR$/blog/send.py" />
         <option value="$PROJECT_DIR$/blog/forms.py" />
         <option value="$PROJECT_DIR$/blog/template/contactUs.html" />
         <option value="$PROJECT_DIR$/newApp/settings.py" />
         <option value="$PROJECT_DIR$/newApp/urls.py" />
+        <option value="$PROJECT_DIR$/blog/views.py" />
       </list>
     </option>
   </component>
@@ -414,7 +414,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="916" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="916" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -540,15 +540,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="53" selection-start="1319" selection-end="1319" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#30#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/forms.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="84" selection-start="260" selection-end="260" vertical-scroll-proportion="0.0">
@@ -572,8 +563,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newApp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="21" selection-start="302" selection-end="302" vertical-scroll-proportion="0.3375">
+        <state line="9" column="21" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="40" column="51" selection-start="1317" selection-end="1317" vertical-scroll-proportion="0.55">
+          <folding>
+            <element signature="e#0#30#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
