@@ -8,5 +8,5 @@ TOPIC_CHOICES = (
 
 class ContactForm(forms.Form):
     topic = forms.ChoiceField(choices=TOPIC_CHOICES)
-    message = forms.CharField(widget=forms.Textarea(), help_text="say something..", initial="input your ideas..")
-    sender  = forms.EmailField(required=False, help_text="input your email-address")
+    message = forms.CharField(widget=forms.Textarea(), initial="input your ideas..")
+    sender  = forms.EmailField(required=False,)

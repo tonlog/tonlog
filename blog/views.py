@@ -38,7 +38,7 @@ def contactUs(request):
                 sender,
                 [DEFAULT_MAIL_RECEIVER],
             )
-            return HttpResponseRedirect("")
+            return HttpResponseRedirect("/contact/thx")
     else:
         form = ContactForm()
     return render_to_response("contactUs.html",{'form':form},context_instance=RequestContext(request))
