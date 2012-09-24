@@ -52,24 +52,24 @@ MEDIA_ROOT = ''
 # Examples: "http://media.lawrence.com/media/", "http://example.com/media/"
 MEDIA_URL = ''
 
-# Absolute path to the directory static files should be collected to.
-# Don't put anything in this directory yourself; store your static files
-# in apps' "static/" subdirectories and in STATICFILES_DIRS.
-# Example: "/home/media/media.lawrence.com/static/"
-STATIC_ROOT = ''
+# Absolute path to the directory media files should be collected to.
+# Don't put anything in this directory yourself; store your media files
+# in apps' "media/" subdirectories and in STATICFILES_DIRS.
+# Example: "/home/media/media.lawrence.com/media/"
+STATIC_ROOT = 'media/'
 
-# URL prefix for static files.
-# Example: "http://media.lawrence.com/static/"
-STATIC_URL = '/static/'
+# URL prefix for media files.
+# Example: "http://media.lawrence.com/media/"
+STATIC_URL = '/media/'
 
-# Additional locations of static files
+# Additional locations of media files
 STATICFILES_DIRS = (
-    # Put strings here, like "/home/html/static" or "C:/www/django/static".
+    # Put strings here, like "/home/html/media" or "C:/www/django/media".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
 )
 
-# List of finder classes that know how to find static files in
+# List of finder classes that know how to find media files in
 # various locations.
 STATICFILES_FINDERS = (
     'django.contrib.staticfiles.finders.FileSystemFinder',
@@ -162,3 +162,5 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_HOST_USER = 'tonie.tonieh.h@gmail.com'
 EMAIL_HOST_PASSWORD = 'kakashi1109'
 EMAIL_PORT = 587
+
+STATIC_PATH = './media'

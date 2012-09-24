@@ -6,6 +6,35 @@ from models import Blog
 from forms import ContactForm
 from django.core.mail import send_mail
 from django.http import HttpResponseRedirect
+from models import Blog
+
+def displayContent(request, offset):
+    if int(offset[0]) >= len(Blog.objects.all()):
+        content  = []
+        warn_msg = u'i havent made so much blog..'
+        return render_to_response("", {"content":content, "warn_meg":warn_msg})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 def searchBlog(request):
@@ -44,4 +73,4 @@ def contactUs(request):
     return render_to_response("contactUs.html",{'form':form},context_instance=RequestContext(request))
 
 def thankU(request):
-    return render_to_response("THX.html", {})
+    return render_to_response("index.html", {})
