@@ -7,6 +7,7 @@ admin.autodiscover()
 
 urlpatterns = patterns('',
     (r'^$','blog.views.index'),#to the index page.
+    (r'^(\d)/$','blog.views.displayContent'),
 
 
     (r'^search/onBlog$','blog.views.searchBlog'),

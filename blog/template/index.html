@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns="http://www.w3.org/1999/html">
 {% include 'structure/head_ref.html' %}
 
 <body>
@@ -16,15 +16,29 @@
 
     <div id="gallery"><!-- gallery -->
         <ul>
-          <li class="new_pic" id="decor">
+          <li class="new_pic">
             <a href="gallery.html"></a>
           </li>
-          <li class="new_words" id="decor">
+          <li class="new_words">
           </li>
         </ul>
     </div><!-- close gallery -->
 
+<ul id='catalogue'>
+    <li>
+        <div class="decor">
+            <p>
+                <h3>OUTER_LINKS</h3>
+            </p>
+            <!--进行for循环-->
+            <a href={{ site|escape }}>{{ namespace }}</a>
+        </div>
+    </li>
+</ul>
+
+
 <ul>
+    <!--进行for循环-->
     <li id="box">
         <div>
             <h3>
@@ -38,13 +52,9 @@
     </li>
 
     <li id="page_index">
-        <h2>next</h2>
+        <h2>next</h2><!--将页面作为默认值进行传入-->
     </li>
 </ul>
-
-
-
-
 
 <div id="footer">
 Exclusively on <a href="http://tonlog.herokuapp.com">Tonie</a>

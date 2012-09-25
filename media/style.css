@@ -137,7 +137,7 @@ body {width: 960px; margin: auto; font-family: Georgia, "Times New Roman", Times
 
 #box {width:665px; height:200px; float: right;
     margin-right: 16px; margin-bottom: 22px; text-align: justify;
-    border:#909090 0.5px solid;background:#fff;color:#333;
+    border:#909090 0px solid;background:#fff;color:#333;
     filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);
     -moz-box-shadow: 2px 2px 10px #909090;
     -webkit-box-shadow: 2px 2px 10px #909090;
@@ -163,7 +163,7 @@ body {width: 960px; margin: auto; font-family: Georgia, "Times New Roman", Times
 
 #page_index {
     width: 670px; float: right; margin-bottom: 22px;margin-right: 16px; text-align: justify;
-    border:#909090 0.5px solid;background:#fff;color:#333;
+    border:#909090 0px solid;background:#fff;color:#333;
     filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);
     -moz-box-shadow: 2px 2px 10px #909090;
     -webkit-box-shadow: 2px 2px 10px #909090;
@@ -218,6 +218,13 @@ p {line-height: 1.4em; padding-bottom: 25px}
 	margin-bottom: 28px;
 }
 
+#gallery li{
+    border:#909090 0px solid;background:#fff;color:#333;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);
+    -moz-box-shadow: 2px 2px 10px #909090;
+    -webkit-box-shadow: 2px 2px 10px #909090;
+}
+
 .new_pic {
     width: 200px;
     height: 190px;
@@ -239,14 +246,14 @@ p {line-height: 1.4em; padding-bottom: 25px}
 }
 
 #decor {
-    border:#909090 0.5px solid;background:#fff;color:#333;
+    border:#909090 0px solid;background:#fff;color:#333;
     filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);
     -moz-box-shadow: 2px 2px 10px #909090;
     -webkit-box-shadow: 2px 2px 10px #909090;
 }
 
 .decor {
-    border:#909090 0.5px solid;background:#fff;color:#333;
+    border:#909090 0px solid;background:#fff;color:#333;
     filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);
     -moz-box-shadow: 2px 2px 10px #909090;
     -webkit-box-shadow: 2px 2px 10px #909090;
@@ -298,3 +305,17 @@ ul.dropdown ul li a					{ border-right: none; background: none; padding: 9px 8px
 */
 ul.dropdown ul ul 					{ left: 100%; top: 0; z-index:300; border-top: 1px solid #dbdbdb }
 ul.dropdown li:hover > ul 			{ visibility: visible; }
+
+/*
+     catalogue
+*/
+#catalogue div{
+    width: 200px;
+    height: auto;
+    padding-top: 17px;
+    padding-left: 17px;
+    padding-bottom: 17px;
+    margin-left: 15px;
+    margin-bottom: 28px;
+    float: left;
+}

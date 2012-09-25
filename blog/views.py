@@ -9,8 +9,8 @@ from django.http import HttpResponseRedirect
 from models import Blog
 
 #for tonlog blog application:
-def index(requeset):
-    return render_to_response('index.html', {})
+def index(requeset, offset):
+    return render_to_response('index.html', {'site': 'baidu.com','namespace':'somthing'})
 
 
 
@@ -31,10 +31,7 @@ def index(requeset):
 
 def displayContent(request, offset):
     if int(offset[0]) >= len(Blog.objects.all()):
-        content  = []
-        warn_msg = u'i havent made so much blog..'
-        return render_to_response("", {"content":content, "warn_meg":warn_msg})
-
+        return render_to_response("index.html",{'site': 'baidu.com','namespace':'somthing'})
 
 
 
