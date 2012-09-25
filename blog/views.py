@@ -9,20 +9,19 @@ from django.http import HttpResponseRedirect
 from models import Blog
 
 #for tonlog blog application:
-def index(requeset, offset):
+def index(requeset):
+    #input some ref of other blog
     return render_to_response('index.html', {'site': 'baidu.com','namespace':'somthing'})
 
+def catalogue(request, offset=[]):
+    index = offset[0]-1;
+    if index in range(0,Blog.objects.count()):
+        pass
+    else:
+        pass
 
-
-
-
-
-
-
-
-
-
-
+def page(request):
+    return render_to_response('page.html', {})
 
 
 

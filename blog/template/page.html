@@ -2,37 +2,35 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="style.css" media="all" />
+<link rel="stylesheet" type="text/css" href="/site_media/style.css" media="all" />
 <title>Classic Luxury Gallery | www.csstemplateheaven.com</title>
 
-{% include 'fancybox.html' %}
-{% include 'dropdown.html'%}
+{% include 'structure/fancybox.html' %}
+{% include 'structure/dropdown.html'%}
 
 </head>
 
 <body>
-{% include 'site_ref.html' %}
-{% include 'main_menu.html' %}
+{% include 'structure/site_ref.html' %}
+{% include 'structure/main_menu.html' %}
 
 
 
 <div id="content"><!-- content -->
 
-<h1> head </h1>
+    <ul>
+        <li>
+            <div id="box2">
+                <h3>
+                    title1
+                    <a href="#"><img src="/site_media/images/more.png" class="more" width="68" height="24" alt="more" /></a>
+                </h3>
+                <p>
 
-<p>=w=</p>
-
-<h2>Heading Two</h2>
-
-<p>=w=</p>
-
-<h2>Heading Two</h2>
-
-<p>=w=</p>
-
-<h2>Heading Two</h2>
-
-<p>=w=</p>
+                </p>
+            </div>
+        </li>
+    </ul>
                         
 </div><!-- end content -->
 
@@ -75,9 +73,10 @@ Donec ac felis accumsan arcu ultricies consequat imperdiet non felis. Cum sociis
 
 </div><!-- end sidebar -->
 
+{% include 'structure/index_bar.html' %}
 
 <div id="footer">
-Exclusively on <a href="http://www.sixrevisions.com">Six Revisions</a> | Created by <a href="http://www.csstemplateheaven.com">CssTemplateHeaven</a>
+Exclusively on <a href="http://tonlog.herokuapp.com">Tonie</a>
 </div>
 
 </body>
