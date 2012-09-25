@@ -6,7 +6,9 @@ from django.contrib import admin
 admin.autodiscover()
 
 urlpatterns = patterns('',
-    (r'^$','blog.views.thankU'),
+    (r'^$','blog.views.index'),#to the index page.
+
+
     (r'^search/onBlog$','blog.views.searchBlog'),
     (r'^contactUs/$','blog.views.contactUs'),
     (r'^contactUs/thx/$', 'blog.views.thankU'),

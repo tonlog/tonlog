@@ -122,9 +122,10 @@ body {width: 960px; margin: auto; font-family: Georgia, "Times New Roman", Times
 	padding: 20px;
 	font-size: 1.4em; 
 	line-height: 1.6em; 
-	margin-bottom: 44px;
-	outline:1px solid #dcdcdc;
+	margin-bottom: 5px;
+	outline:0px solid #dcdcdc;
 	background: #eaeaea;
+    text-align: justify;
     font-family:'New Century Schoolbook',
     Georgia, 'New York', serif;;
 }
@@ -133,11 +134,16 @@ body {width: 960px; margin: auto; font-family: Georgia, "Times New Roman", Times
 
 #intro p {padding: 0}
 
-#box_left {width: 300px; float: left; margin-bottom: 44px; text-align: justify}
-#box_right {width: 300px; float: right; margin-bottom: 44px; text-align: justify}
-#box_middle {margin-left: 330px; margin-right: 330px; margin-bottom: 44px; text-align: justify}
 
-#box_left h3, #box_right h3, #box_middle h3 {
+#box {width:665px; height:200px; float: right;
+    margin-right: 16px; margin-bottom: 22px; text-align: justify;
+    border:#909090 0.5px solid;background:#fff;color:#333;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);
+    -moz-box-shadow: 2px 2px 10px #909090;
+    -webkit-box-shadow: 2px 2px 10px #909090;
+}
+
+#box h3, #box_right h3, #box_middle h3 {
 	background: #eaeaea;
 	font-weight: normal;
 	margin-bottom: 25px;
@@ -149,6 +155,26 @@ body {width: 960px; margin: auto; font-family: Georgia, "Times New Roman", Times
 	border: 1px solid #FFF;
 	outline:1px solid #dcdcdc;
 }
+
+#box p {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#page_index {
+    width: 670px; float: right; margin-bottom: 22px;margin-right: 16px; text-align: justify;
+    border:#909090 0.5px solid;background:#fff;color:#333;
+    filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);
+    -moz-box-shadow: 2px 2px 10px #909090;
+    -webkit-box-shadow: 2px 2px 10px #909090;
+}
+
+#page_index h2{
+    float: right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
 
 #footer {clear: both; padding: 10px; text-align: right; background: url(images/seperator.png) repeat-x top; font-size: .8em; color: #a3a3a3}
 
@@ -171,7 +197,9 @@ p {line-height: 1.4em; padding-bottom: 25px}
 
 /* images */
 
-.more {float: right; margin-right: 10px}
+.more {float: right;
+    margin-right: 10px;
+    padding-bottom: 0px;}
 
 
 /*------------------ gallery ------------------*/
@@ -195,13 +223,13 @@ p {line-height: 1.4em; padding-bottom: 25px}
     height: 190px;
     padding-top: 17px;
     padding-left: 17px;
-    margin-left: 44px;
+    margin-left: 0px;
     margin-bottom: 28px;
     float: left;
 }
 
 .new_words {
-    width:  600px;
+    width:  650px;
     height: 190px;
     padding-top: 17px;
     padding-left: 17px;

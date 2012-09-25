@@ -8,6 +8,27 @@ from django.core.mail import send_mail
 from django.http import HttpResponseRedirect
 from models import Blog
 
+#for tonlog blog application:
+def index(requeset):
+    return render_to_response('index.html', {})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 def displayContent(request, offset):
     if int(offset[0]) >= len(Blog.objects.all()):
         content  = []
@@ -73,4 +94,4 @@ def contactUs(request):
     return render_to_response("contactUs.html",{'form':form},context_instance=RequestContext(request))
 
 def thankU(request):
-    return render_to_response("index.html", {})
+    return render_to_response("", {})
