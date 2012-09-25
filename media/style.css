@@ -162,7 +162,7 @@ body {width: 960px; margin: auto; font-family: Georgia, "Times New Roman", Times
 }
 
 #page_next {
-    width: 670px; float: right; margin-bottom: 22px;margin-right: 16px; text-align: justify;
+    width: 665px; margin-bottom: 22px;margin-right: 16px; text-align: justify;
     border:#909090 0px solid;background:#fff;color:#333;
     filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);
     -moz-box-shadow: 2px 2px 10px #909090;
@@ -353,4 +353,8 @@ ul.dropdown li:hover > ul 			{ visibility: visible; }
 #box2 p {
     margin-left: 10px;
     margin-top: 10px;
+}
+
+#block {
+    float: left;
 }

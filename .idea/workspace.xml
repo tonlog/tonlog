@@ -2,14 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e155830-f222-4638-b0d6-97e4ad9fc3c9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/template/structure/index_bar.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/template/index.html" afterPath="$PROJECT_DIR$/blog/template/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/template/page.html" afterPath="$PROJECT_DIR$/blog/template/page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/template/structure/main_menu.html" afterPath="$PROJECT_DIR$/blog/template/structure/main_menu.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/style.css" afterPath="$PROJECT_DIR$/media/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newApp/urls.py" afterPath="$PROJECT_DIR$/newApp/urls.py" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,15 +33,6 @@
               <folding>
                 <element signature="e#0#30#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="page.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/template/page.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="78" column="31" selection-start="2159" selection-end="2159" vertical-scroll-proportion="0.712627">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -96,10 +82,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="page.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/template/page.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="76" column="6" selection-start="2080" selection-end="2080" vertical-scroll-proportion="-17.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="style.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/media/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="331" column="29" selection-start="7764" selection-end="7764" vertical-scroll-proportion="0.0">
+            <state line="164" column="18" selection-start="3238" selection-end="3238" vertical-scroll-proportion="-3.9697802">
               <folding />
             </state>
           </provider>
@@ -130,10 +125,10 @@
         <option value="$PROJECT_DIR$/newApp/urls.py" />
         <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/blog/template/structure/main_menu.html" />
-        <option value="$PROJECT_DIR$/media/style.css" />
         <option value="$PROJECT_DIR$/blog/template/structure/index_bar.html" />
         <option value="$PROJECT_DIR$/blog/template/index.html" />
         <option value="$PROJECT_DIR$/blog/template/page.html" />
+        <option value="$PROJECT_DIR$/media/style.css" />
       </list>
     </option>
   </component>
@@ -607,9 +602,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/media/style.css">
+    <entry file="file://$PROJECT_DIR$/blog/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="331" column="29" selection-start="7764" selection-end="7764" vertical-scroll-proportion="0.0">
+        <state line="53" column="0" selection-start="1244" selection-end="1284" vertical-scroll-proportion="-16.615385">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/template/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="76" column="6" selection-start="2080" selection-end="2080" vertical-scroll-proportion="-17.5">
           <folding />
         </state>
       </provider>
@@ -621,16 +623,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/template/index.html">
+    <entry file="file://$PROJECT_DIR$/media/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="0" selection-start="1244" selection-end="1284" vertical-scroll-proportion="-16.615385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/template/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="31" selection-start="2159" selection-end="2159" vertical-scroll-proportion="0.712627">
+        <state line="164" column="18" selection-start="3238" selection-end="3238" vertical-scroll-proportion="-3.9697802">
           <folding />
         </state>
       </provider>
