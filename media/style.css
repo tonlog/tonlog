@@ -135,7 +135,7 @@ body {width: 960px; margin: auto; font-family: Georgia, "Times New Roman", Times
 #intro p {padding: 0}
 
 
-#box {width:630px; height:220px; float: left;
+#box {width:630px; height:auto; float: left;
     margin-left: 0px; margin-bottom: 22px; text-align: justify;
     border:#909090 0px solid;background:#fff;color:#333;
     filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);
@@ -160,6 +160,17 @@ body {width: 960px; margin: auto; font-family: Georgia, "Times New Roman", Times
     margin-left: 10px;
     margin-top: 10px;
 }
+
+#text-left{
+    text-align: left;
+    margin-right: 20px;
+}
+
+#text-right {
+    text-align: right;
+    margin-right: 20px;
+}
+
 
 #page_next {
     width: 630px; margin-bottom: 22px; float: left; margin-left: 0px; text-align: justify;
@@ -247,7 +258,7 @@ p {line-height: 1.4em; padding-bottom: 25px}
     padding-top: 10px;
     padding-left: 0px;
     margin-left: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     float: left;
 }
 
@@ -349,6 +360,8 @@ ul.dropdown li:hover > ul 			{ visibility: visible; }
     border: 1px solid #FFF;
     outline:1px solid #dcdcdc;
 }
+
+
 
 #box2 p {
     margin-left: 10px;

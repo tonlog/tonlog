@@ -29,27 +29,31 @@
             <p>
                 <h3>OUTER_LINKS</h3>
             </p>
-            {% for blog in blogs_o %}
-            <p></a><a href='{{ blog.site }}'>{{ blog.name }}</a></p>
+            {% for link in links %}
+            <h6></a><a href='{{ link.site }}'>{{ link.name }}</a></h6>
             {% endfor %}
         </div>
     </li>
 </ul>
 
+<p>{{ li }}</p>
+
 
 <ul>
-    <!--进行for循环-->
+    {% for blog in blogs %}
     <li id="box">
         <div>
             <h3>
-                T1
+                {{ blog.title }}
                 <a href="page.html"><img src="/site_media/images/more.png" class="more" width="68" height="24" alt="more" /></a>
             </h3>
-        <p>
-            content
-        </p>
+            <p id="text-left">
+                {{ blog.content }}
+            </p>
+            <p id="text-right">{{ blog.date }}</p>
         </div>
     </li>
+    {% endfor %}
 
 {% include 'structure/index_bar.html' %}
 </ul>

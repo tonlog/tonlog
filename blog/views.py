@@ -9,39 +9,87 @@ from django.core.mail import send_mail
 from django.http import HttpResponseRedirect
 import models, MapObject
 
-
+num_of_tonlogs_per_page = 5
+num_of_recent_diaplay = 2
 
 #for tonlog blog application:
 def index(requeset):
-    #input some ref of other blog
-    outer_nameset = models.OuterLink.objects.all().values('blog_name')
-    outer_siteset = models.OuterLink.objects.all().values('blog_site')
-    blogs = []
-    for i in range(0, models.OuterLink.objects.count()):
-        blogs.append(MapObject.Blog_o(outer_nameset[i]['blog_name'],outer_siteset[i]['blog_site']))
+    outer_links = get_outer_links()
+    blogs = get_blogs_content()
+
     return render_to_response('index.html', {
-        'blogs_o': blogs,
+        'links': outer_links,
+        'blogs': blogs,
+        'previous_page': '#' ,
+        'next_page':'page/1',
     })
 
-def catalogue(request, offset=[]):
-    index = offset[0]-1;
-    if index in range(0,Blog.objects.count()):
-        pass
+def turn_to_page(request, offset=[]):
+    total = Blog.objects.count()
+    index = int(offset[0]);
+    if (index-1) in range(0,total/num_of_tonlogs_per_page + 1):
+        blogs = read_blog_content(index)
+
+        previous_page = '/%s' % str(index-1)
+        next_page     = '/page/%s' % str(index+1)
+
+        if index-1 <= 0: previous_page = '#';
+        if index-1 >= total/num_of_tonlogs_per_page: next_page = '#';
+
+        return render_to_response('page.html', {
+            'blogs':blogs,
+            'previous_page':previous_page,
+            'next_page':next_page,
+            })
     else:
-        pass
+        return render_to_response('NonExists.html', {})
 
 def page(request):
     return render_to_response('page.html', {})
-
-
-
-
-
 
 def displayContent(request, offset):
     if int(offset[0]) >= len(Blog.objects.all()):
         return render_to_response("index.html",{'site': 'baidu.com','namespace':'somthing'})
 
+#抓取外部链接
+def get_outer_links():
+    outer_linkset = models.OuterLink.objects.all()
+    outer_nameset = outer_linkset.values('blog_name')
+    outer_siteset = outer_linkset.values('blog_site')
+    blogs = []
+    for i in range(0, outer_linkset.count()):
+        blogs.append(MapObject.Blog_o(outer_nameset[i]['blog_name'],outer_siteset[i]['blog_site']))
+    return blogs
+
+#抓取博客内容
+def get_blogs_content(blogs = None):
+    if blogs is None:
+        blogs = models.Blog.objects.all()[:num_of_recent_diaplay]
+    titleset = blogs.values('title')
+    pubtimeset  = blogs.values('pub_time')
+    contentset  = blogs.values('content')
+    result = []
+    for i in range(0, blogs.count()):
+        result.append(MapObject.Blog_content(
+            titleset[i]['title'],
+            pubtimeset[i]['pub_time'],
+            contentset[i]['content'][:100]+"...",
+        ))
+    return result
+
+#分页抓取博客内容
+def read_blog_content(index):
+    blogs = models.Blog.objects.all()
+    result = []
+    if index*num_of_tonlogs_per_page <= blogs.count():
+        start = (index-1)*num_of_tonlogs_per_page
+        content = blogs[start:start+num_of_tonlogs_per_page]
+    else:
+        start = (index-1)*num_of_tonlogs_per_page
+        content = blogs[start:start+blogs.count()]
+
+    result = get_blogs_content(content)
+    return result
 
 
 

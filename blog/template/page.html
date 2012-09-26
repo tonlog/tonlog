@@ -3,7 +3,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link rel="stylesheet" type="text/css" href="/site_media/style.css" media="all" />
-<title>Classic Luxury Gallery | www.csstemplateheaven.com</title>
+<title>Tonlog</title>
 
 {% include 'structure/fancybox.html' %}
 {% include 'structure/dropdown.html'%}
@@ -19,18 +19,19 @@
 <div id="content"><!-- content -->
 
     <ul>
+        {% for blog in blogs %}
         <li>
             <div id="box2">
                 <h3>
-                    title1
+                    {{ blog.title }}
                     <a href="#"><img src="/site_media/images/more.png" class="more" width="68" height="24" alt="more" /></a>
                 </h3>
                 <p>
-
+                    {{ blog.content }}
                 </p>
             </div>
         </li>
-
+        {% endfor %}
         {% include 'structure/index_bar.html' %}
     </ul>
                         
