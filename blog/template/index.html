@@ -29,9 +29,9 @@
             <p>
                 <h3>OUTER_LINKS</h3>
             </p>
-
-            <a href={{ sites }}>{{ sites }}</a>
-
+            {% for blog in blogs_o %}
+            <p></a><a href='{{ blog.site }}'>{{ blog.name }}</a></p>
+            {% endfor %}
         </div>
     </li>
 </ul>

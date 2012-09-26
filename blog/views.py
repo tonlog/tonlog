@@ -14,7 +14,19 @@ import models
 #for tonlog blog application:
 def index(requeset):
     #input some ref of other blog
-    return render_to_response('index.html', {'sites':models.OuterLink.objects.all().get(blog_name__contains='黄曦')})
+    outer_nameset = models.OuterLink.objects.all().values('blog_name')
+    outer_siteset = models.OuterLink.objects.all().values('blog_site')
+    blogs = []
+    for i in range(0, models.OuterLink.objects.count()):
+        blogs.append(Blog_o(outer_nameset[i]['blog_name'],outer_siteset[i]['blog_site']))
+    return render_to_response('index.html', {
+        'blogs_o': blogs,
+    })
+
+class Blog_o:
+    def __init__(self, name, site):
+        self.name = name
+        self.site = site
 
 def catalogue(request, offset=[]):
     index = offset[0]-1;

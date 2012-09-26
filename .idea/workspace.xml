@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e155830-f222-4638-b0d6-97e4ad9fc3c9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/template/index.html" afterPath="$PROJECT_DIR$/blog/template/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newApp/settings.py" afterPath="$PROJECT_DIR$/newApp/settings.py" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -24,10 +27,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/newApp/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="157" column="0" selection-start="5307" selection-end="5307" vertical-scroll-proportion="0.6291209">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="99" selection-start="547" selection-end="547" vertical-scroll-proportion="0.3956044">
+            <state line="20" column="89" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
               </folding>
@@ -38,7 +50,7 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/template/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="40" selection-start="797" selection-end="797" vertical-scroll-proportion="-11.769231">
+            <state line="32" column="57" selection-start="851" selection-end="851" vertical-scroll-proportion="-18.0">
               <folding />
             </state>
           </provider>
@@ -84,7 +96,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/blog/template/site_ref.html" />
         <option value="$PROJECT_DIR$/blog/template/main_menu.html" />
         <option value="$PROJECT_DIR$/blog/template/dropdown.html" />
         <option value="$PROJECT_DIR$/blog/template/head_ref.html" />
@@ -98,8 +109,9 @@
         <option value="$PROJECT_DIR$/blog/template/page.html" />
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/blog/admin.py" />
-        <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/blog/template/index.html" />
+        <option value="$PROJECT_DIR$/blog/views.py" />
+        <option value="$PROJECT_DIR$/newApp/settings.py" />
       </list>
     </option>
   </component>
@@ -536,13 +548,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newApp/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="0" selection-start="1005" selection-end="1005" vertical-scroll-proportion="-2.6661952">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="29" selection-start="528" selection-end="528" vertical-scroll-proportion="0.42032966">
@@ -566,16 +571,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newApp/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="35" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="320" column="22" selection-start="7590" selection-end="7590" vertical-scroll-proportion="-10.84">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newApp/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="35" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/template/structure/index_bar.html">
@@ -587,17 +592,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="40" selection-start="797" selection-end="797" vertical-scroll-proportion="-11.769231">
+        <state line="32" column="57" selection-start="851" selection-end="851" vertical-scroll-proportion="-18.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="99" selection-start="547" selection-end="547" vertical-scroll-proportion="0.3956044">
+        <state line="20" column="89" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#24#54#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newApp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="157" column="0" selection-start="5307" selection-end="5307" vertical-scroll-proportion="0.6291209">
+          <folding />
         </state>
       </provider>
     </entry>
