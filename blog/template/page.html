@@ -30,6 +30,8 @@
                 </p>
             </div>
         </li>
+
+        {% include 'structure/index_bar.html' %}
     </ul>
                         
 </div><!-- end content -->
@@ -41,11 +43,8 @@
 
     <div class="navcontainer">
     <ul>
-    <li><a href="#">Lorem ipsum dolor</a></li>
-    <li><a href="#">Maecenas leo risus</a></li>
-    <li><a href="#">Donec ac felis</a></li>
-    <li><a href="#">Proin interdum</a></li>
-    <li><a href="#">Morbi dapibus erat</a></li>
+        <!--进行FOR循环-->
+        <li><a href="#">tonlog</a></li>
     </ul>
     </div>
 
@@ -53,32 +52,23 @@
 
     <div class="navcontainer">
     <ul>
-    <li><a href="#">February</a></li>
-    <li><a href="#">January</a></li>
-    <li><a href="#">December</a></li>
-    <li><a href="#">November</a></li>
-    <li><a href="#">October</a></li>
+        <!--list all-->
+        <li><a href="#">Catagory</a></li>
     </ul>
     </div>
-    
+
+<!--
 <h3>Some Text</h3>
-
+制作一个标签云..
 <p>Proin interdum lobortis venenatis. Donec ac felis accumsan arcu ultricies consequat imperdiet non felis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-
-<h3>Text in a box</h3>
+-->
+<h3>P.S.:</h3>
 
 <p class="sidebar_box">
-Donec ac felis accumsan arcu ultricies consequat imperdiet non felis. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+Here are the postScript..
 </p>
 
 </div><!-- end sidebar -->
-
-<div>
-{% include 'structure/index_bar.html' %}
-</div>
-<div id="footer">
-Exclusively on <a href="http://tonlog.herokuapp.com">Tonie</a>
-</div>
-
+{% include 'structure/common_footer.html' %}
 </body>
 </html>
