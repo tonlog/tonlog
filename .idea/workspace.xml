@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e155830-f222-4638-b0d6-97e4ad9fc3c9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/template/index.html" afterPath="$PROJECT_DIR$/blog/template/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
     </list>
     <ignored path="app.iws" />
@@ -28,7 +27,7 @@
       <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="360" selection-end="360" vertical-scroll-proportion="0.24725275">
+            <state line="16" column="99" selection-start="547" selection-end="547" vertical-scroll-proportion="0.3956044">
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
               </folding>
@@ -595,7 +594,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="360" selection-end="360" vertical-scroll-proportion="0.24725275">
+        <state line="16" column="99" selection-start="547" selection-end="547" vertical-scroll-proportion="0.3956044">
           <folding>
             <element signature="e#24#54#0" expanded="true" />
           </folding>

@@ -14,7 +14,7 @@ import models
 #for tonlog blog application:
 def index(requeset):
     #input some ref of other blog
-    return render_to_response('index.html', {'sites':models.OuterLink.objects.all().get(blog_name_contains='黄曦')})
+    return render_to_response('index.html', {'sites':models.OuterLink.objects.all().get(blog_name__contains='黄曦')})
 
 def catalogue(request, offset=[]):
     index = offset[0]-1;
