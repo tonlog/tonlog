@@ -7,14 +7,16 @@ from models import Blog
 from forms import ContactForm
 from django.core.mail import send_mail
 from django.http import HttpResponseRedirect
-from models import Blog
+import models
 
 
 
 #for tonlog blog application:
 def index(requeset):
     #input some ref of other blog
-    return render_to_response('index.html', {'site': 'http://tonlog.herokuapp.com','namespace':'黄曦'})
+    dataDict = {}
+    dataDict['sites'] = models.OuterLink.objects.all()
+    return render_to_response('index.html', dataDict)
 
 def catalogue(request, offset=[]):
     index = offset[0]-1;

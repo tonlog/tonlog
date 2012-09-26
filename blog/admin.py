@@ -17,6 +17,10 @@ class TagAdmin(admin.ModelAdmin):
     list_display = ('tag_line',)
     ordering = ('-tag_line',)
 
+class OuterLinkAdmin(admin.ModelAdmin):
+    list_display = ('blog_name','blog_site')
+
 admin.site.register(models.Blog, BlogAdmin)
 admin.site.register(models.Comment, CommentAdmin)
 admin.site.register(models.Tag, TagAdmin)
+admin.site.register(models.OuterLink, OuterLinkAdmin)

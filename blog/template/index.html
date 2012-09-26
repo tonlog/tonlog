@@ -3,7 +3,6 @@
 {% include 'structure/head_ref.html' %}
 
 <body>
-<!-- about link to other site -->
 {% include 'structure/site_ref.html'%}
 
 <div id="intro" class="decor">
@@ -14,7 +13,7 @@
 
 {% include 'structure/main_menu.html' %}
 
-    <div id="gallery"><!-- gallery -->
+    <div id="gallery">
         <ul>
             <li class="new_words">
             </li>
@@ -22,7 +21,7 @@
                 <a href="gallery.html"></a>
             </li>
         </ul>
-    </div><!-- close gallery -->
+    </div>
 
 <ul id='catalogue'>
     <li>
@@ -30,8 +29,9 @@
             <p>
                 <h3>OUTER_LINKS</h3>
             </p>
-            <!--进行for循环-->
-            <a href={{ site|escape }}>{{ namespace }}</a>
+            {% for site in sites %}
+            <a href="#">{{ site }}</a>
+            {% endfor %}
         </div>
     </li>
 </ul>

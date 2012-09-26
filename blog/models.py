@@ -9,7 +9,7 @@ class Tag(models.Model):
         return self.tag_line
 
 class Blog(models.Model):
-    title    = models.CharField(max_length=100, help_text='input your title..')
+    title    = models.CharField(max_length=100)
     pub_time = models.DateTimeField()
     content  = models.TextField()
     tag      = models.ForeignKey(Tag)
@@ -18,10 +18,17 @@ class Blog(models.Model):
         return self.title
 
 class Comment(models.Model):
-    topic    = models.CharField(max_length=100, help_text='what is your topic..')
+    topic    = models.CharField(max_length=100)
     up_time  = models.DateTimeField()
     words    = models.TextField()
     blog     = models.ForeignKey(Blog)
 
     def __unicode__(self):
         return self.topic
+
+class OuterLink(models.Model):
+    blog_name = models.CharField(max_length=30)
+    blog_site = models.URLField(verify_exists=True)
+
+    def __unicode__(self):
+        return self.blog_name
