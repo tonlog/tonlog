@@ -2,9 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e155830-f222-4638-b0d6-97e4ad9fc3c9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/admin.py" afterPath="$PROJECT_DIR$/blog/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/models.py" afterPath="$PROJECT_DIR$/blog/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/template/index.html" afterPath="$PROJECT_DIR$/blog/template/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
     </list>
     <ignored path="app.iws" />
@@ -27,10 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="54" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
+            <state line="15" column="33" selection-start="447" selection-end="447" vertical-scroll-proportion="0.3708791">
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
               </folding>
@@ -38,10 +35,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/template/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="31" selection-start="823" selection-end="823" vertical-scroll-proportion="0.43589744">
+            <state line="33" column="24" selection-start="855" selection-end="855" vertical-scroll-proportion="-12.461538">
               <folding />
             </state>
           </provider>
@@ -101,8 +98,8 @@
         <option value="$PROJECT_DIR$/blog/template/page.html" />
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/blog/admin.py" />
-        <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/blog/template/index.html" />
+        <option value="$PROJECT_DIR$/blog/views.py" />
       </list>
     </option>
   </component>
@@ -581,15 +578,6 @@
         <state line="10" column="35" selection-start="349" selection-end="349" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="54" selection-start="520" selection-end="520" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#24#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/template/structure/index_bar.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="5" selection-start="192" selection-end="192" vertical-scroll-proportion="-2.7692308">
@@ -599,8 +587,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="31" selection-start="823" selection-end="823" vertical-scroll-proportion="0.43589744">
+        <state line="33" column="24" selection-start="855" selection-end="855" vertical-scroll-proportion="-12.461538">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="33" selection-start="447" selection-end="447" vertical-scroll-proportion="0.3708791">
+          <folding>
+            <element signature="e#24#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
