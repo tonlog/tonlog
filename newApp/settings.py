@@ -9,7 +9,7 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
-'''
+
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
@@ -19,7 +19,9 @@ DATABASES = {
         'HOST': 'localhost',                      # Set to empty string for localhost. Not used with sqlite3.
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }
-}'''
+}
+#import dj_database_url
+#DATABASES={'default': dj_database_url.config(default = 'postgres://localhost')}
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name
@@ -153,9 +155,6 @@ LOGGING = {
         },
     }
 }
-
-import dj_database_url
-DATABASES={'default': dj_database_url.config(default = 'postgres://localhost')}
 
 EMAIL_USE_TLS = True
 #EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'

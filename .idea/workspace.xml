@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e155830-f222-4638-b0d6-97e4ad9fc3c9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/template/index.html" afterPath="$PROJECT_DIR$/blog/template/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/MapObject.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newApp/settings.py" afterPath="$PROJECT_DIR$/newApp/settings.py" />
     </list>
@@ -27,10 +26,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="157" column="0" selection-start="5307" selection-end="5307" vertical-scroll-proportion="0.6291209">
+            <state line="24" column="0" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -39,7 +38,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="89" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0">
+            <state line="25" column="34" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#24#54#0" expanded="true" />
               </folding>
@@ -47,10 +46,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/template/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="57" selection-start="851" selection-end="851" vertical-scroll-proportion="-18.0">
+            <state line="32" column="57" selection-start="851" selection-end="851" vertical-scroll-proportion="0.6666667">
               <folding />
             </state>
           </provider>
@@ -96,7 +95,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/blog/template/main_menu.html" />
         <option value="$PROJECT_DIR$/blog/template/dropdown.html" />
         <option value="$PROJECT_DIR$/blog/template/head_ref.html" />
         <option value="$PROJECT_DIR$/blog/template/fancybox.html" />
@@ -110,6 +108,7 @@
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/blog/admin.py" />
         <option value="$PROJECT_DIR$/blog/template/index.html" />
+        <option value="$PROJECT_DIR$/blog/MapObject.py" />
         <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/newApp/settings.py" />
       </list>
@@ -509,11 +508,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/media/images/seperator.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/media/logo.png">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -590,25 +584,32 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/template/index.html">
+    <entry file="file://$PROJECT_DIR$/blog/MapObject.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="57" selection-start="851" selection-end="851" vertical-scroll-proportion="-18.0">
+        <state line="3" column="24" selection-start="99" selection-end="99" vertical-scroll-proportion="0.07417583">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newApp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="847" selection-end="847" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="89" selection-start="751" selection-end="751" vertical-scroll-proportion="0.0">
+        <state line="25" column="34" selection-start="887" selection-end="887" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#24#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newApp/settings.py">
+    <entry file="file://$PROJECT_DIR$/blog/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="157" column="0" selection-start="5307" selection-end="5307" vertical-scroll-proportion="0.6291209">
+        <state line="32" column="57" selection-start="851" selection-end="851" vertical-scroll-proportion="0.6666667">
           <folding />
         </state>
       </provider>
