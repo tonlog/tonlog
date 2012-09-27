@@ -24,10 +24,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="page.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="page.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/template/page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="57" selection-start="983" selection-end="983" vertical-scroll-proportion="0.16167665">
+            <state line="32" column="57" selection-start="983" selection-end="983" vertical-scroll-proportion="-14.538462">
               <folding />
             </state>
           </provider>
@@ -80,10 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/template/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="61" selection-start="1244" selection-end="1244" vertical-scroll-proportion="-15.230769">
+            <state line="47" column="24" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.6079295">
               <folding />
             </state>
           </provider>
@@ -92,7 +92,7 @@
       <file leaf-file-name="index_bar.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/template/structure/index_bar.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="53" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+            <state line="2" column="53" selection-start="103" selection-end="103" vertical-scroll-proportion="-1.3846154">
               <folding />
             </state>
           </provider>
@@ -143,8 +143,8 @@
         <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/newApp/settings.py" />
         <option value="$PROJECT_DIR$/blog/toolkit.py" />
-        <option value="$PROJECT_DIR$/blog/template/index.html" />
         <option value="$PROJECT_DIR$/blog/template/page.html" />
+        <option value="$PROJECT_DIR$/blog/template/index.html" />
       </list>
     </option>
   </component>
@@ -466,13 +466,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="916" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24533716" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24533716" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -589,13 +589,6 @@
         <state line="12" column="37" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/template/structure/index_bar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="53" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/newApp/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="0" selection-start="187" selection-end="187" vertical-scroll-proportion="0.0" />
@@ -624,16 +617,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/template/index.html">
+    <entry file="file://$PROJECT_DIR$/blog/template/page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="61" selection-start="1244" selection-end="1244" vertical-scroll-proportion="-15.230769">
+        <state line="32" column="57" selection-start="983" selection-end="983" vertical-scroll-proportion="-14.538462">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/template/page.html">
+    <entry file="file://$PROJECT_DIR$/blog/template/structure/index_bar.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="57" selection-start="983" selection-end="983" vertical-scroll-proportion="0.16167665">
+        <state line="2" column="53" selection-start="103" selection-end="103" vertical-scroll-proportion="-1.3846154">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/template/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="24" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.6079295">
           <folding />
         </state>
       </provider>
