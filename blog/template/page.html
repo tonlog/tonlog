@@ -12,6 +12,9 @@
 
 <body>
 {% include 'structure/site_ref.html' %}
+
+{% include 'structure/intro.html' %}
+
 {% include 'structure/main_menu.html' %}
 
 
@@ -26,9 +29,10 @@
                     {{ blog.title }}
                     <a href="#"><img src="/site_media/images/more.png" class="more" width="68" height="24" alt="more" /></a>
                 </h3>
-                <p>
-                    {{ blog.content }}
+                <p id="text-left">
+                    {{ blog.content|truncatewords:"30" }}
                 </p>
+                <p id="text-right">{{ blog.date|date:"F j, Y" }}</p>
             </div>
         </li>
         {% endfor %}
@@ -44,8 +48,12 @@
 
     <div class="navcontainer">
     <ul>
-        <!--进行FOR循环-->
-        <li><a href="#">tonlog</a></li>
+        {% for tonlog in recents %}
+        <li>
+            <a href="#">{{ tonlog.title }}</a>
+            <p id="text-right">{{ tonlog.date|date:"F j, Y" }}</p>
+        </li>
+        {% endfor %}
     </ul>
     </div>
 

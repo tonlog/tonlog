@@ -5,11 +5,7 @@
 <body>
 {% include 'structure/site_ref.html'%}
 
-<div id="intro" class="decor">
-    <p>
-        <span>content..</span>
-    </p>
-</div>
+{% include 'structure/intro.html' %}
 
 {% include 'structure/main_menu.html' %}
 
@@ -45,12 +41,12 @@
         <div>
             <h3>
                 {{ blog.title }}
-                <a href="page.html"><img src="/site_media/images/more.png" class="more" width="68" height="24" alt="more" /></a>
+                <a href="{{ site }}"><img src="/site_media/images/more.png" class="more" width="68" height="24" alt="more" /></a>
             </h3>
             <p id="text-left">
-                {{ blog.content }}
+                {{ blog.content|truncatewords:"30" }}
             </p>
-            <p id="text-right">{{ blog.date }}</p>
+            <p id="text-right">{{ blog.date|date:"F j, Y" }}</p>
         </div>
     </li>
     {% endfor %}
@@ -58,5 +54,32 @@
 {% include 'structure/index_bar.html' %}
 </ul>
 {% include 'structure/common_footer.html' %}
+
+<div>{{ here }}</div>
+
+
+<!--
+<h2>Filter</h2>
+
+<h3> By pub time </h3>
+<ul>
+
+    <li>
+        <a href="?">Any date</a></li>
+
+    <li>
+        <a href="?pub_time__lt=2012-09-27+00%3A00%3A00%2B08%3A00&amp;pub_time__gte=2012-09-26+00%3A00%3A00%2B08%3A00">Today</a></li>
+
+    <li>
+        <a href="?pub_time__lt=2012-09-27+00%3A00%3A00%2B08%3A00&amp;pub_time__gte=2012-09-19+00%3A00%3A00%2B08%3A00">Past 7 days</a></li>
+
+    <li class="selected">
+        <a href="?pub_time__lt=2012-09-27+00%3A00%3A00%2B08%3A00&amp;pub_time__gte=2012-09-01+00%3A00%3A00%2B08%3A00">This month</a></li>
+
+    <li>
+        <a href="?pub_time__lt=2012-09-27+00%3A00%3A00%2B08%3A00&amp;pub_time__gte=2012-01-01+00%3A00%3A00%2B08%3A00">This year</a></li>
+
+</ul>
 </body>
 </html>
+-->
