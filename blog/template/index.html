@@ -11,10 +11,38 @@
 
     <div id="gallery">
         <ul class="additional">
+        <!--放图片-->
             <li>
                 <div class="new_pic">
                     to be set..
                 </div>
+            </li>
+            <p></p>
+        <!--自我介绍-->
+            <li>
+                <p>自我介绍</p>
+            </li>
+        <!--归档-->
+            <li>
+                <h2>Archive</h2><p/>
+                    <li>
+                        >><a href="#">Any date</a>
+                    </li><p/>
+                    <li>
+                        >><a href="#">Today</a>
+                    </li><p/>
+                    <li>
+                        >><a href="#">Past 7 days</a>
+                    </li><p/>
+                    <li>
+                        >><a href="#" class="selected">This month</a>
+                    </li><p/>
+                    <li>
+                        >><a href="#">This year</a>
+                    </li><p/>
+            </li>
+        <!--放外链-->
+            <li>
                 <div>
                     <p>
                     <h3>OUTER_LINKS</h3>
@@ -49,32 +77,5 @@
 {% include 'structure/index_bar.html' %}
 </ul>
 {% include 'structure/common_footer.html' %}
-
-<div>{{ here }}</div>
-
-
-<!--
-<h2>Filter</h2>
-
-<h3> By pub time </h3>
-<ul>
-
-    <li>
-        <a href="?">Any date</a></li>
-
-    <li>
-        <a href="?pub_time__lt=2012-09-27+00%3A00%3A00%2B08%3A00&amp;pub_time__gte=2012-09-26+00%3A00%3A00%2B08%3A00">Today</a></li>
-
-    <li>
-        <a href="?pub_time__lt=2012-09-27+00%3A00%3A00%2B08%3A00&amp;pub_time__gte=2012-09-19+00%3A00%3A00%2B08%3A00">Past 7 days</a></li>
-
-    <li class="selected">
-        <a href="?pub_time__lt=2012-09-27+00%3A00%3A00%2B08%3A00&amp;pub_time__gte=2012-09-01+00%3A00%3A00%2B08%3A00">This month</a></li>
-
-    <li>
-        <a href="?pub_time__lt=2012-09-27+00%3A00%3A00%2B08%3A00&amp;pub_time__gte=2012-01-01+00%3A00%3A00%2B08%3A00">This year</a></li>
-
-</ul>
 </body>
 </html>
--->

@@ -282,8 +282,6 @@ p {line-height: 1.4em; padding-bottom: 25px}
     -webkit-box-shadow: 2px 2px 10px #909090;
 }
 
-
-
 .center {margin: auto;}
 
 #no_gallery_found {width: 798; padding: 50px; margin: auto; background: red; border: 10px solid white}
@@ -366,4 +364,11 @@ ul.dropdown li:hover > ul 			{ visibility: visible; }
 
 #block {
     float: left;
+}
+
+/*
+    关于归档查询的css
+*/
+.selected {
+    color: #FF8800
 }
