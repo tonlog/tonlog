@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e155830-f222-4638-b0d6-97e4ad9fc3c9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/template/index.html" afterPath="$PROJECT_DIR$/blog/template/index.html" />
+      <change type="MOVED" beforePath="X:\Desk\python\app\blog\template\index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,9 +81,9 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/template/index.html">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="24" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.6079295">
+            <state line="38" column="27" selection-start="921" selection-end="921" vertical-scroll-proportion="0.37004405">
               <folding />
             </state>
           </provider>
@@ -302,11 +302,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="X:\Desk\python\app" />
       <recent name="X:\Desk\python\app\blog" />
       <recent name="X:\Desk\python\app\media" />
       <recent name="X:\Desk\python\app\media\images" />
       <recent name="X:\Desk\python\app\blog\template\structure" />
-      <recent name="X:\Desk\python\app" />
     </key>
   </component>
   <component name="RunManager" selected="Python.send">
@@ -431,8 +431,8 @@
       <method />
     </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.send" />
-      <item index="1" class="java.lang.String" itemvalue="Django server.app" />
+      <item index="0" class="java.lang.String" itemvalue="Django server.app" />
+      <item index="1" class="java.lang.String" itemvalue="Python.send" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -631,9 +631,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/template/index.html">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="24" selection-start="1261" selection-end="1261" vertical-scroll-proportion="0.6079295">
+        <state line="38" column="27" selection-start="921" selection-end="921" vertical-scroll-proportion="0.37004405">
           <folding />
         </state>
       </provider>
