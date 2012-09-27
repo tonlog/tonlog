@@ -9,8 +9,11 @@ ADMINS = (
 
 MANAGERS = ADMINS
 
+import dj_database_url
+DATABASES={'default': dj_database_url.config(default = 'postgres://localhost')}
 
-'''DATABASES = {
+'''
+DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql', # Add 'postgresql_psycopg2', 'mysql', 'sqlite3' or 'oracle'.
         'NAME': 'trial',                      # Or path to database file if using sqlite3.
@@ -20,8 +23,6 @@ MANAGERS = ADMINS
         'PORT': '',                      # Set to empty string for default. Not used with sqlite3.
     }
 }'''
-import dj_database_url
-DATABASES={'default': dj_database_url.config(default = 'postgres://localhost')}
 
 # Local time zone for this installation. Choices can be found here:
 # http://en.wikipedia.org/wiki/List_of_tz_zones_by_name

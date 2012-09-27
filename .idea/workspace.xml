@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e155830-f222-4638-b0d6-97e4ad9fc3c9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/template/index.html" afterPath="$PROJECT_DIR$/blog/template/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/template/page.html" afterPath="$PROJECT_DIR$/blog/template/page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newApp/settings.py" afterPath="$PROJECT_DIR$/newApp/settings.py" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,10 +25,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="page.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="page.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/template/page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="57" selection-start="983" selection-end="983" vertical-scroll-proportion="-14.538462">
+            <state line="32" column="41" selection-start="967" selection-end="967" vertical-scroll-proportion="0.56586826">
               <folding />
             </state>
           </provider>
@@ -54,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="4" selection-start="747" selection-end="747" vertical-scroll-proportion="0.5346535">
+            <state line="24" column="4" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -142,10 +142,10 @@
         <option value="$PROJECT_DIR$/media/style.css" />
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/blog/toolkit.py" />
-        <option value="$PROJECT_DIR$/blog/template/page.html" />
         <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/blog/template/index.html" />
         <option value="$PROJECT_DIR$/newApp/settings.py" />
+        <option value="$PROJECT_DIR$/blog/template/page.html" />
       </list>
     </option>
   </component>
@@ -620,13 +620,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/template/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="57" selection-start="983" selection-end="983" vertical-scroll-proportion="-14.538462">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="48" selection-start="1231" selection-end="1231" vertical-scroll-proportion="-4.8461537">
@@ -636,7 +629,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newApp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="4" selection-start="747" selection-end="747" vertical-scroll-proportion="0.5346535">
+        <state line="24" column="4" selection-start="851" selection-end="851" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/template/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="41" selection-start="967" selection-end="967" vertical-scroll-proportion="0.56586826">
           <folding />
         </state>
       </provider>
