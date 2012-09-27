@@ -32,7 +32,6 @@ def get_blogs_content(blogs = None):
 #分页抓取博客内容
 def read_blog_content(index):
     blogs = models.Blog.objects.all()
-    result = []
     if index * Arg.num_of_tonlogs_per_page <= blogs.count():
         start = (index-1) * Arg.num_of_tonlogs_per_page
         content = blogs[start:start+ Arg.num_of_tonlogs_per_page]
@@ -49,7 +48,20 @@ def get_recent_tonlog():
     result = get_blogs_content(blogs)
     return result
 
-#获取最近七天的数据
-def get_day_limit(limit_num):
-    pass
+#result = blogs.dates("pub_time", "day", order="DESC")
+#   date = result[0]
+
+#获取最近数天的数据
+def get_day_limit(limit_num=0):
+    blogs = models.Blog.objects.all()
+
+    if limit_num<0:
+        return blogs
+
+    import pytz
+    today = datetime.datetime.today().replace(tzinfo=pytz.utc,hour=0, minute=0,second=0)
+    date = today - datetime.timedelta(limit_num)
+    result = blogs.filter(pub_time__gte=date)
+    return result
+
 

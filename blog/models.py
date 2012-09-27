@@ -11,7 +11,7 @@ class Tag(models.Model):
 class Blog(models.Model):
     title    = models.CharField(max_length=100)
     pub_time = models.DateTimeField()
-    content  = models.TextField()
+    content  = models.TextField(blank=True)
     tag      = models.ForeignKey(Tag)
 
     def __unicode__(self):

@@ -10,19 +10,31 @@ from django.http import HttpResponseRedirect
 import datetime
 import models,toolkit,Arg
 
+
+
+
+
+
 #for tonlog blog application:
 def index(requeset):
     #获得外链的数据
     outer_links = toolkit.get_outer_links()
     #获得最新博客文章的数据
     blogs = toolkit.get_blogs_content()
-    trial = toolkit.get_day_limit(7)
+
+    #Archive data
+    anydate = toolkit.get_day_limit(-1)
+    today   = toolkit.get_day_limit()
+    past_seven = toolkit.get_day_limit(7)
+    past_thirty = toolkit.get_day_limit(30)
+    past_year   = toolkit.get_day_limit(365)
 
     return render_to_response('index.html', {
         'links': outer_links,
         'blogs': blogs,
         'previous_page': '#' ,
         'next_page':'page/1',
+        'here':anydate,
     })
 
 #页面跳转的逻辑判断
