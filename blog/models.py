@@ -1,7 +1,5 @@
 from django.db import models
 
-#class App(models.Model):
-#   pass
 class Tag(models.Model):
     tag_line = models.CharField(max_length=20)
 
