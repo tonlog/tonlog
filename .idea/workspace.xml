@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e155830-f222-4638-b0d6-97e4ad9fc3c9" name="Default" comment="">
-      <change type="MOVED" beforePath="X:\Desk\python\app\blog\template\index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MOVED" beforePath="X:\Desk\python\app\index.html" afterPath="$PROJECT_DIR$/blog/template/index.html" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -81,7 +81,7 @@
         </entry>
       </file>
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/blog/template/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="38" column="27" selection-start="921" selection-end="921" vertical-scroll-proportion="0.37004405">
               <folding />
@@ -302,11 +302,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="X:\Desk\python\app\blog\template" />
       <recent name="X:\Desk\python\app" />
       <recent name="X:\Desk\python\app\blog" />
       <recent name="X:\Desk\python\app\media" />
       <recent name="X:\Desk\python\app\media\images" />
-      <recent name="X:\Desk\python\app\blog\template\structure" />
     </key>
   </component>
   <component name="RunManager" selected="Python.send">
@@ -465,7 +465,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="916" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="916" extended-state="7" />
     <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -631,7 +631,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/blog/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="38" column="27" selection-start="921" selection-end="921" vertical-scroll-proportion="0.37004405">
           <folding />
