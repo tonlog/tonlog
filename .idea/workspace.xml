@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e155830-f222-4638-b0d6-97e4ad9fc3c9" name="Default" comment="">
-      <change type="MOVED" beforePath="X:\Desk\python\app\index.html" afterPath="$PROJECT_DIR$/blog/template/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/template/index.html" afterPath="$PROJECT_DIR$/blog/template/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,7 +37,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/blog/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="21" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0">
+            <state line="24" column="29" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -53,10 +54,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/newApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
+            <state line="21" column="4" selection-start="747" selection-end="747" vertical-scroll-proportion="0.5346535">
               <folding />
             </state>
           </provider>
@@ -75,15 +76,6 @@
         <entry file="file://$PROJECT_DIR$/blog/models.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="12" column="37" selection-start="306" selection-end="306" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/blog/template/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="27" selection-start="921" selection-end="921" vertical-scroll-proportion="0.37004405">
               <folding />
             </state>
           </provider>
@@ -116,6 +108,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/template/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="46" column="48" selection-start="1231" selection-end="1231" vertical-scroll-proportion="-4.8461537">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -140,11 +141,11 @@
         <option value="$PROJECT_DIR$/blog/template/Arg.py" />
         <option value="$PROJECT_DIR$/media/style.css" />
         <option value="$PROJECT_DIR$/blog/models.py" />
-        <option value="$PROJECT_DIR$/blog/views.py" />
-        <option value="$PROJECT_DIR$/newApp/settings.py" />
         <option value="$PROJECT_DIR$/blog/toolkit.py" />
         <option value="$PROJECT_DIR$/blog/template/page.html" />
+        <option value="$PROJECT_DIR$/blog/views.py" />
         <option value="$PROJECT_DIR$/blog/template/index.html" />
+        <option value="$PROJECT_DIR$/newApp/settings.py" />
       </list>
     </option>
   </component>
@@ -465,14 +466,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="916" extended-state="7" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1456" height="916" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891247" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24533716" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24533716" sideWeight="0.6710875" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -572,11 +573,6 @@
         <state line="2" column="24" selection-start="78" selection-end="78" vertical-scroll-proportion="0.050919376" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="21" selection-start="774" selection-end="774" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/template/NonExists.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="12" column="6" selection-start="0" selection-end="656" vertical-scroll-proportion="0.0">
@@ -601,26 +597,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newApp/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/toolkit.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="34" column="15" selection-start="1056" selection-end="1056" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#25#54#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/template/page.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="57" selection-start="983" selection-end="983" vertical-scroll-proportion="-14.538462">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -631,9 +613,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/blog/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="29" selection-start="752" selection-end="752" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/template/page.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="57" selection-start="983" selection-end="983" vertical-scroll-proportion="-14.538462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/template/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="27" selection-start="921" selection-end="921" vertical-scroll-proportion="0.37004405">
+        <state line="46" column="48" selection-start="1231" selection-end="1231" vertical-scroll-proportion="-4.8461537">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newApp/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="4" selection-start="747" selection-end="747" vertical-scroll-proportion="0.5346535">
           <folding />
         </state>
       </provider>

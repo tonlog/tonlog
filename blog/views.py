@@ -23,7 +23,6 @@ def index(requeset):
         'blogs': blogs,
         'previous_page': '#' ,
         'next_page':'page/1',
-        'here':trial,
     })
 
 #页面跳转的逻辑判断
