@@ -51,6 +51,7 @@ def get_recent_tonlog():
 
 #获取最近七天的数据
 def get_day_limit(limit_num):
+    '''
     blogs = models.Blog.objects.all()
     result = blogs.dates("pub_time", "day", order="DESC")
     now = datetime.datetime.today()
@@ -59,4 +60,4 @@ def get_day_limit(limit_num):
 
 
 
-    return result
+    return result'''pass

@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e155830-f222-4638-b0d6-97e4ad9fc3c9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/Arg.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/template/TonlogDisplay.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/template/structure/intro.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/blog/toolkit.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/template/index.html" afterPath="$PROJECT_DIR$/blog/template/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/template/page.html" afterPath="$PROJECT_DIR$/blog/template/page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/views.py" afterPath="$PROJECT_DIR$/blog/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/media/style.css" afterPath="$PROJECT_DIR$/media/style.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/newApp/settings.py" afterPath="$PROJECT_DIR$/newApp/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/blog/toolkit.py" afterPath="$PROJECT_DIR$/blog/toolkit.py" />
     </list>
     <ignored path="app.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -51,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="toolkit.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="toolkit.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/toolkit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="21" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.0">
+            <state line="62" column="24" selection-start="1855" selection-end="1855" vertical-scroll-proportion="0.90240455">
               <folding>
                 <element signature="e#25#54#0" expanded="true" />
               </folding>
@@ -62,10 +53,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newApp/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="0.58557284">
+            <state line="23" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -152,8 +143,8 @@
         <option value="$PROJECT_DIR$/blog/models.py" />
         <option value="$PROJECT_DIR$/blog/template/index.html" />
         <option value="$PROJECT_DIR$/blog/views.py" />
-        <option value="$PROJECT_DIR$/blog/toolkit.py" />
         <option value="$PROJECT_DIR$/newApp/settings.py" />
+        <option value="$PROJECT_DIR$/blog/toolkit.py" />
       </list>
     </option>
   </component>
@@ -631,19 +622,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/toolkit.py">
+    <entry file="file://$PROJECT_DIR$/newApp/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="21" selection-start="1819" selection-end="1819" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#25#54#0" expanded="true" />
-          </folding>
+        <state line="23" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newApp/settings.py">
+    <entry file="file://$PROJECT_DIR$/blog/toolkit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="771" selection-end="771" vertical-scroll-proportion="0.58557284">
-          <folding />
+        <state line="62" column="24" selection-start="1855" selection-end="1855" vertical-scroll-proportion="0.90240455">
+          <folding>
+            <element signature="e#25#54#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
