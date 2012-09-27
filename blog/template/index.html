@@ -10,32 +10,27 @@
 {% include 'structure/main_menu.html' %}
 
     <div id="gallery">
-        <ul>
-            <li class="new_words">
-            </li>
-            <li class="new_pic">
-                <a href="gallery.html"></a>
+        <ul class="additional">
+            <li>
+                <div class="new_pic">
+                    to be set..
+                </div>
+                <div>
+                    <p>
+                    <h3>OUTER_LINKS</h3>
+                    </p>
+                    {% for link in links %}
+                        <h6></a><a href='{{ link.site }}'>{{ link.name }}</a></h6>
+                    {% endfor %}
+                </div>
             </li>
         </ul>
     </div>
 
-<ul id='catalogue'>
-    <li>
-        <div class="decor">
-            <p>
-                <h3>OUTER_LINKS</h3>
-            </p>
-            {% for link in links %}
-            <h6></a><a href='{{ link.site }}'>{{ link.name }}</a></h6>
-            {% endfor %}
-        </div>
-    </li>
-</ul>
-
-<p>{{ li }}</p>
-
-
 <ul>
+    <li class="new_words" id="decor">
+
+    </li>
     {% for blog in blogs %}
     <li id="box">
         <div>

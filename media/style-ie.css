@@ -1,13 +1,25 @@
 
 
 #intro {
-	border: 1px solid #dcdcdc; 
+	border: 1px solid #dcdcdc;
+    clear: both;
+    padding: 20px;
+    font-size: 1.4em;
+    line-height: 1.6em;
+    margin-bottom: 5px;
+    outline:0px solid #dcdcdc;
+    background: #eaeaea;
+    text-align: justify;
+    font-family:'New Century Schoolbook',
+    Georgia, 'New York', serif;
+
 }
 
 #box_left h3, #box_right h3, #box_middle h3 {
 	border: 1px solid #dcdcdc;
 }
 
-#box_left, #box_right, #box_middle {margin-bottom: 20px;}
+#box, #box2 {margin-bottom: 10px;}
+
 
 
