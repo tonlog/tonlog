@@ -45,7 +45,7 @@
       <file leaf-file-name="toolkit.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/toolkit.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="24" selection-start="1855" selection-end="1855" vertical-scroll-proportion="0.90240455">
+            <state line="54" column="0" selection-start="1654" selection-end="1654" vertical-scroll-proportion="0.8217822">
               <folding>
                 <element signature="e#25#54#0" expanded="true" />
               </folding>
@@ -631,7 +631,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/toolkit.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="24" selection-start="1855" selection-end="1855" vertical-scroll-proportion="0.90240455">
+        <state line="54" column="0" selection-start="1654" selection-end="1654" vertical-scroll-proportion="0.8217822">
           <folding>
             <element signature="e#25#54#0" expanded="true" />
           </folding>
