@@ -60,7 +60,7 @@ html {background: #f7f7f7; font-size: 100%}
 
 /*------------------ Site Structure ------------------*/
 
-body {width: 960px; margin: auto; font-family: Georgia, "Times New Roman", Times, serif; font-size: .875em; color: #666;}
+body {width: 960px; margin: auto; font-family:times, "微软雅黑", georgia; font-size: .875em; color: #666;}
 
 #header {height: 160px; background: url(images/logo.png) no-repeat}
 
@@ -174,7 +174,7 @@ body {width: 960px; margin: auto; font-family: Georgia, "Times New Roman", Times
 }
 
 
-#page_next {
+#page_index {
     width: 630px; margin-bottom: 22px; float: left; margin-left: 0px; text-align: justify;
     border:#909090 0px solid;background:#fff;color:#333;
     filter:progid:DXImageTransform.Microsoft.Shadow(color=#909090,direction=120,strength=4);
@@ -182,16 +182,18 @@ body {width: 960px; margin: auto; font-family: Georgia, "Times New Roman", Times
     -webkit-box-shadow: 2px 2px 10px #909090;
 }
 
-#next a{
+#page_next a{
     float: right;
     margin-right: 10px;
-    padding-top: 5px
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
 #page_previous a{
     float: left;
     margin-left: 10px;
-    padding-top:10px
+    padding-top:10px;
+    padding-bottom: 5px;
 }
 
 
